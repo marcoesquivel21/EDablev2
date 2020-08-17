@@ -7,15 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5609E7DB243EED2800B7B6EF /* FInancialMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609E7DA243EED2800B7B6EF /* FInancialMenuViewController.swift */; };
+		560A9D73241881E1003A7F22 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D72241881E1003A7F22 /* ContactTableViewCell.swift */; };
+		560A9D772418B567003A7F22 /* Icon awesome-twitter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D762418B567003A7F22 /* Icon awesome-twitter@3x.png */; };
+		560A9D792418B693003A7F22 /* Icon awesome-facebook-square@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D782418B693003A7F22 /* Icon awesome-facebook-square@3x.png */; };
+		560A9D7F2418B7CA003A7F22 /* baseline_phone_iphone_black_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D7E2418B7CA003A7F22 /* baseline_phone_iphone_black_36pt_3x.png */; };
+		560A9D812418B800003A7F22 /* baseline_email_black_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D802418B800003A7F22 /* baseline_email_black_36pt_3x.png */; };
+		560A9D872418B9FD003A7F22 /* yt_icon_mono_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D862418B9FD003A7F22 /* yt_icon_mono_light.png */; };
+		560A9D892418BE98003A7F22 /* baseline_person_black_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D882418BE98003A7F22 /* baseline_person_black_48pt_3x.png */; };
+		560A9D8B2418C142003A7F22 /* EducationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D8A2418C142003A7F22 /* EducationModel.swift */; };
+		560A9D8D2418C46E003A7F22 /* EDUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D8C2418C46E003A7F22 /* EDUTableViewCell.swift */; };
+		560A9D8F2418C495003A7F22 /* EDUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D8E2418C495003A7F22 /* EDUMainViewController.swift */; };
+		560A9D912418C6B5003A7F22 /* Icon awesome-check-circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 560A9D902418C6B5003A7F22 /* Icon awesome-check-circle@3x.png */; };
+		560A9D932418C8BD003A7F22 /* EDUDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D922418C8BD003A7F22 /* EDUDetailViewController.swift */; };
+		560A9D952418D13B003A7F22 /* ElectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A9D942418D13B003A7F22 /* ElectionsViewController.swift */; };
+		5622C23D2418D9D3006C6627 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622C23C2418D9D3006C6627 /* RegisterModel.swift */; };
 		5624B11C24134A42001656AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624B11B24134A42001656AE /* AppDelegate.swift */; };
 		5624B11E24134A42001656AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624B11D24134A42001656AE /* SceneDelegate.swift */; };
 		5624B12024134A42001656AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624B11F24134A42001656AE /* ViewController.swift */; };
 		5624B12324134A42001656AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5624B12124134A42001656AE /* Main.storyboard */; };
 		5624B12524134A43001656AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5624B12424134A43001656AE /* Assets.xcassets */; };
 		5624B12824134A43001656AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5624B12624134A43001656AE /* LaunchScreen.storyboard */; };
+		5659334A24159E2B00C0F815 /* APImodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659334924159E2B00C0F815 /* APImodel.swift */; };
+		5659334C2415A0AB00C0F815 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659334B2415A0AB00C0F815 /* AddressViewController.swift */; };
+		565933502415A51D00C0F815 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659334F2415A51D00C0F815 /* MainMenuViewController.swift */; };
+		565933552415B79900C0F815 /* Screen Shot 2020-03-08 at 4.30.23 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 565933542415B79900C0F815 /* Screen Shot 2020-03-08 at 4.30.23 PM.png */; };
+		565933572415B87F00C0F815 /* Screen Shot 2020-03-08 at 4.34.15 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 565933562415B87F00C0F815 /* Screen Shot 2020-03-08 at 4.34.15 PM.png */; };
+		565933592415BBDC00C0F815 /* CivicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565933582415BBDC00C0F815 /* CivicViewController.swift */; };
+		5659335B2415BEFF00C0F815 /* Screen Shot 2020-03-08 at 5.01.59 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5659335A2415BEFF00C0F815 /* Screen Shot 2020-03-08 at 5.01.59 PM.png */; };
+		5659335D2415BFBA00C0F815 /* Screen Shot 2020-03-08 at 5.05.07 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5659335C2415BFBA00C0F815 /* Screen Shot 2020-03-08 at 5.05.07 PM.png */; };
+		5659335F2415C09E00C0F815 /* Screen Shot 2020-03-08 at 5.08.54 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5659335E2415C09E00C0F815 /* Screen Shot 2020-03-08 at 5.08.54 PM.png */; };
+		565933612415C14A00C0F815 /* EngagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565933602415C14A00C0F815 /* EngagementViewController.swift */; };
+		565933632415C4A500C0F815 /* LocalGovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565933622415C4A500C0F815 /* LocalGovViewController.swift */; };
+		565933652415D28000C0F815 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565933642415D28000C0F815 /* DetailViewController.swift */; };
+		56783F94243E671F00FA4E74 /* Icon material-perm-contact-calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56783F93243E671F00FA4E74 /* Icon material-perm-contact-calendar@3x.png */; };
+		56783F96243E690200FA4E74 /* Icon map-courthouse@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56783F95243E690200FA4E74 /* Icon map-courthouse@3x.png */; };
+		56783F98243E690800FA4E74 /* Icon awesome-monument@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56783F97243E690800FA4E74 /* Icon awesome-monument@3x.png */; };
+		56783F9A243E9AE700FA4E74 /* Icon awesome-wpforms@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56783F99243E9AE700FA4E74 /* Icon awesome-wpforms@3x.png */; };
+		56783F9C243E9B0B00FA4E74 /* Icon map-finance@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56783F9B243E9B0B00FA4E74 /* Icon map-finance@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5609E7DA243EED2800B7B6EF /* FInancialMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInancialMenuViewController.swift; sourceTree = "<group>"; };
+		560A9D72241881E1003A7F22 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		560A9D762418B567003A7F22 /* Icon awesome-twitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon awesome-twitter@3x.png"; sourceTree = SOURCE_ROOT; };
+		560A9D782418B693003A7F22 /* Icon awesome-facebook-square@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon awesome-facebook-square@3x.png"; sourceTree = SOURCE_ROOT; };
+		560A9D7E2418B7CA003A7F22 /* baseline_phone_iphone_black_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_phone_iphone_black_36pt_3x.png; sourceTree = "<group>"; };
+		560A9D802418B800003A7F22 /* baseline_email_black_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_email_black_36pt_3x.png; sourceTree = "<group>"; };
+		560A9D862418B9FD003A7F22 /* yt_icon_mono_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yt_icon_mono_light.png; sourceTree = "<group>"; };
+		560A9D882418BE98003A7F22 /* baseline_person_black_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_person_black_48pt_3x.png; sourceTree = "<group>"; };
+		560A9D8A2418C142003A7F22 /* EducationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationModel.swift; sourceTree = "<group>"; };
+		560A9D8C2418C46E003A7F22 /* EDUTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDUTableViewCell.swift; sourceTree = "<group>"; };
+		560A9D8E2418C495003A7F22 /* EDUMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDUMainViewController.swift; sourceTree = "<group>"; };
+		560A9D902418C6B5003A7F22 /* Icon awesome-check-circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon awesome-check-circle@3x.png"; sourceTree = SOURCE_ROOT; };
+		560A9D922418C8BD003A7F22 /* EDUDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDUDetailViewController.swift; sourceTree = "<group>"; };
+		560A9D942418D13B003A7F22 /* ElectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectionsViewController.swift; sourceTree = "<group>"; };
+		5622C23C2418D9D3006C6627 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		5624B11824134A42001656AE /* EDablev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDablev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5624B11B24134A42001656AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5624B11D24134A42001656AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +71,23 @@
 		5624B12424134A43001656AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5624B12724134A43001656AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5624B12924134A43001656AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5659334924159E2B00C0F815 /* APImodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APImodel.swift; sourceTree = "<group>"; };
+		5659334B2415A0AB00C0F815 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		5659334F2415A51D00C0F815 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		565933542415B79900C0F815 /* Screen Shot 2020-03-08 at 4.30.23 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-03-08 at 4.30.23 PM.png"; sourceTree = "<group>"; };
+		565933562415B87F00C0F815 /* Screen Shot 2020-03-08 at 4.34.15 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-03-08 at 4.34.15 PM.png"; sourceTree = "<group>"; };
+		565933582415BBDC00C0F815 /* CivicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicViewController.swift; sourceTree = "<group>"; };
+		5659335A2415BEFF00C0F815 /* Screen Shot 2020-03-08 at 5.01.59 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-03-08 at 5.01.59 PM.png"; sourceTree = "<group>"; };
+		5659335C2415BFBA00C0F815 /* Screen Shot 2020-03-08 at 5.05.07 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-03-08 at 5.05.07 PM.png"; sourceTree = "<group>"; };
+		5659335E2415C09E00C0F815 /* Screen Shot 2020-03-08 at 5.08.54 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-03-08 at 5.08.54 PM.png"; sourceTree = "<group>"; };
+		565933602415C14A00C0F815 /* EngagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementViewController.swift; sourceTree = "<group>"; };
+		565933622415C4A500C0F815 /* LocalGovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGovViewController.swift; sourceTree = "<group>"; };
+		565933642415D28000C0F815 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		56783F93243E671F00FA4E74 /* Icon material-perm-contact-calendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon material-perm-contact-calendar@3x.png"; sourceTree = "<group>"; };
+		56783F95243E690200FA4E74 /* Icon map-courthouse@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon map-courthouse@3x.png"; sourceTree = "<group>"; };
+		56783F97243E690800FA4E74 /* Icon awesome-monument@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon awesome-monument@3x.png"; sourceTree = "<group>"; };
+		56783F99243E9AE700FA4E74 /* Icon awesome-wpforms@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon awesome-wpforms@3x.png"; sourceTree = "<group>"; };
+		56783F9B243E9B0B00FA4E74 /* Icon map-finance@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon map-finance@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +122,77 @@
 			children = (
 				5624B11B24134A42001656AE /* AppDelegate.swift */,
 				5624B11D24134A42001656AE /* SceneDelegate.swift */,
-				5624B11F24134A42001656AE /* ViewController.swift */,
 				5624B12124134A42001656AE /* Main.storyboard */,
+				56D33AC82433BF230054FB61 /* Table View Cells */,
+				56D33AC72433BEB80054FB61 /* View Controllers */,
+				56D33AC62433BE8C0054FB61 /* Models */,
 				5624B12424134A43001656AE /* Assets.xcassets */,
+				565933512415B51E00C0F815 /* Pictures */,
 				5624B12624134A43001656AE /* LaunchScreen.storyboard */,
 				5624B12924134A43001656AE /* Info.plist */,
 			);
 			path = EDablev2;
+			sourceTree = "<group>";
+		};
+		565933512415B51E00C0F815 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				56783F99243E9AE700FA4E74 /* Icon awesome-wpforms@3x.png */,
+				560A9D902418C6B5003A7F22 /* Icon awesome-check-circle@3x.png */,
+				560A9D882418BE98003A7F22 /* baseline_person_black_48pt_3x.png */,
+				5659335A2415BEFF00C0F815 /* Screen Shot 2020-03-08 at 5.01.59 PM.png */,
+				565933542415B79900C0F815 /* Screen Shot 2020-03-08 at 4.30.23 PM.png */,
+				565933562415B87F00C0F815 /* Screen Shot 2020-03-08 at 4.34.15 PM.png */,
+				5659335C2415BFBA00C0F815 /* Screen Shot 2020-03-08 at 5.05.07 PM.png */,
+				56783F9B243E9B0B00FA4E74 /* Icon map-finance@3x.png */,
+				5659335E2415C09E00C0F815 /* Screen Shot 2020-03-08 at 5.08.54 PM.png */,
+				560A9D762418B567003A7F22 /* Icon awesome-twitter@3x.png */,
+				560A9D782418B693003A7F22 /* Icon awesome-facebook-square@3x.png */,
+				560A9D7E2418B7CA003A7F22 /* baseline_phone_iphone_black_36pt_3x.png */,
+				560A9D802418B800003A7F22 /* baseline_email_black_36pt_3x.png */,
+				560A9D862418B9FD003A7F22 /* yt_icon_mono_light.png */,
+				56783F93243E671F00FA4E74 /* Icon material-perm-contact-calendar@3x.png */,
+				56783F95243E690200FA4E74 /* Icon map-courthouse@3x.png */,
+				56783F97243E690800FA4E74 /* Icon awesome-monument@3x.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		56D33AC62433BE8C0054FB61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5622C23C2418D9D3006C6627 /* RegisterModel.swift */,
+				560A9D8A2418C142003A7F22 /* EducationModel.swift */,
+				5659334924159E2B00C0F815 /* APImodel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56D33AC72433BEB80054FB61 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5624B11F24134A42001656AE /* ViewController.swift */,
+				560A9D942418D13B003A7F22 /* ElectionsViewController.swift */,
+				560A9D922418C8BD003A7F22 /* EDUDetailViewController.swift */,
+				560A9D8E2418C495003A7F22 /* EDUMainViewController.swift */,
+				565933642415D28000C0F815 /* DetailViewController.swift */,
+				565933622415C4A500C0F815 /* LocalGovViewController.swift */,
+				565933602415C14A00C0F815 /* EngagementViewController.swift */,
+				565933582415BBDC00C0F815 /* CivicViewController.swift */,
+				5659334B2415A0AB00C0F815 /* AddressViewController.swift */,
+				5659334F2415A51D00C0F815 /* MainMenuViewController.swift */,
+				5609E7DA243EED2800B7B6EF /* FInancialMenuViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		56D33AC82433BF230054FB61 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				560A9D8C2418C46E003A7F22 /* EDUTableViewCell.swift */,
+				560A9D72241881E1003A7F22 /* ContactTableViewCell.swift */,
+			);
+			path = "Table View Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +253,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56783F98243E690800FA4E74 /* Icon awesome-monument@3x.png in Resources */,
+				565933572415B87F00C0F815 /* Screen Shot 2020-03-08 at 4.34.15 PM.png in Resources */,
+				56783F94243E671F00FA4E74 /* Icon material-perm-contact-calendar@3x.png in Resources */,
+				560A9D872418B9FD003A7F22 /* yt_icon_mono_light.png in Resources */,
+				560A9D7F2418B7CA003A7F22 /* baseline_phone_iphone_black_36pt_3x.png in Resources */,
+				56783F9C243E9B0B00FA4E74 /* Icon map-finance@3x.png in Resources */,
+				565933552415B79900C0F815 /* Screen Shot 2020-03-08 at 4.30.23 PM.png in Resources */,
+				560A9D892418BE98003A7F22 /* baseline_person_black_48pt_3x.png in Resources */,
+				560A9D772418B567003A7F22 /* Icon awesome-twitter@3x.png in Resources */,
+				56783F96243E690200FA4E74 /* Icon map-courthouse@3x.png in Resources */,
 				5624B12824134A43001656AE /* LaunchScreen.storyboard in Resources */,
 				5624B12524134A43001656AE /* Assets.xcassets in Resources */,
+				560A9D792418B693003A7F22 /* Icon awesome-facebook-square@3x.png in Resources */,
+				560A9D912418C6B5003A7F22 /* Icon awesome-check-circle@3x.png in Resources */,
+				5659335D2415BFBA00C0F815 /* Screen Shot 2020-03-08 at 5.05.07 PM.png in Resources */,
+				5659335B2415BEFF00C0F815 /* Screen Shot 2020-03-08 at 5.01.59 PM.png in Resources */,
+				5659335F2415C09E00C0F815 /* Screen Shot 2020-03-08 at 5.08.54 PM.png in Resources */,
+				56783F9A243E9AE700FA4E74 /* Icon awesome-wpforms@3x.png in Resources */,
+				560A9D812418B800003A7F22 /* baseline_email_black_36pt_3x.png in Resources */,
 				5624B12324134A42001656AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +283,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5659334A24159E2B00C0F815 /* APImodel.swift in Sources */,
+				560A9D8D2418C46E003A7F22 /* EDUTableViewCell.swift in Sources */,
 				5624B12024134A42001656AE /* ViewController.swift in Sources */,
+				5609E7DB243EED2800B7B6EF /* FInancialMenuViewController.swift in Sources */,
+				560A9D73241881E1003A7F22 /* ContactTableViewCell.swift in Sources */,
 				5624B11C24134A42001656AE /* AppDelegate.swift in Sources */,
+				560A9D932418C8BD003A7F22 /* EDUDetailViewController.swift in Sources */,
+				560A9D8B2418C142003A7F22 /* EducationModel.swift in Sources */,
+				565933612415C14A00C0F815 /* EngagementViewController.swift in Sources */,
+				565933502415A51D00C0F815 /* MainMenuViewController.swift in Sources */,
+				560A9D8F2418C495003A7F22 /* EDUMainViewController.swift in Sources */,
+				5659334C2415A0AB00C0F815 /* AddressViewController.swift in Sources */,
+				565933632415C4A500C0F815 /* LocalGovViewController.swift in Sources */,
+				565933652415D28000C0F815 /* DetailViewController.swift in Sources */,
+				5622C23D2418D9D3006C6627 /* RegisterModel.swift in Sources */,
+				560A9D952418D13B003A7F22 /* ElectionsViewController.swift in Sources */,
 				5624B11E24134A42001656AE /* SceneDelegate.swift in Sources */,
+				565933592415BBDC00C0F815 /* CivicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
